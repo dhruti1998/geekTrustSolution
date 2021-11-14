@@ -1,0 +1,25 @@
+.failed-bg-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  min-height: 100vh;
+}
+.failed-text {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 40px;
+  color: black;
+  text-align: center;
+}
+.failed-description {
+  font-family: 'Assistant';
+  font-style: normal;
+  font-size: 19px;
+  color: black;
+  text-align: center;
+}

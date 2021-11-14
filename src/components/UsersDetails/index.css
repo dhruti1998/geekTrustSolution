@@ -1,0 +1,43 @@
+.li-element {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: darkgrey 1px 2px 1px 1px;
+  margin-bottom: 10px;
+}
+.person-details-container {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  width: 80%;
+}
+.each-detail {
+  display: flex;
+  flex-direction: row;
+}
+.main-heading-style {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 13px;
+  color: black;
+  line-height: 1px;
+}
+.data-style {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: black;
+  padding-left: 3px;
+  line-height: 1px;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: black;
+}
+.delete-icon {
+  font-size: 22px;
+}
